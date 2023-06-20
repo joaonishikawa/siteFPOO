@@ -1,0 +1,159 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+
+
+body {
+    margin: 0 0 0 0;
+    font-family: montserrat ;  
+}
+
+hr {
+    background-color: red;
+    width: 1690px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.menu {
+    background-color: red;
+}
+
+/* Menu Principal */
+
+#logo-senai{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-list {
+    display: flex;
+    
+    list-style: none;
+    float: right;
+    margin-top: 28px;
+    padding-right: 620px;
+    margin-bottom: 35px;
+
+}
+
+.nav-list li a{
+    font-family: montserrat;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 22px ;
+    margin: 0;
+}
+
+.submenu1, .submenu2, .submenu3{
+    list-style: none;
+    border: solid red 2px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.nav-list li:hover {
+    border: #ffffff 3px solid;
+    border-radius: 10px;
+    color:#fff;  
+}
+
+.nav-list li ul {
+    position:relative;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    margin: 0;
+}
+
+.nav-list li:hover ul, .nav-list li.over ul{display:block;}
+
+.nav-list li ul li{
+    background-color: red;
+    display:block;
+    list-style: none;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+h6{
+    position: absolute;
+    bottom: 400px;
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.pa{
+    position: absolute;
+    bottom: 45%;
+}
+
+.web{
+    position: absolute;
+    bottom: 150px;
+}
+
+.back{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.pe{
+    position: absolute;
+    bottom: -5%;
+}
+
+.webb{
+    position: absolute;
+    bottom: -19%;
+}
+
+.ban{
+    position: absolute;
+    bottom: -28%;
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.pp{
+    position: absolute;
+    bottom: -45%;
+}
+
+.dad{
+    position: absolute;
+    bottom: -52%;
+}
+
+.dis{
+    position: absolute;
+    bottom: -60%;
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.pu{
+    position: absolute;
+    bottom: -75%;
+}
+
+.mo{
+    position: absolute;
+    bottom: -82%; 
+}
+
